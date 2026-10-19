@@ -1,0 +1,34 @@
+# raw experiment data — model completions to adversarial prompts (never publish)
+results.csv
+results*.csv
+
+# trial / smoke-test runs
+trial.csv
+prompts_trial.csv
+*trial*.csv
+
+# HarmBench-derived prompt supersets (if present)
+prompts_all.csv
+prompts_aug.csv
+harmbench*.csv
+
+# logs
+run.log
+*.log
+
+# python / env / scratch
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.tmp
+
+# os / editor
+.DS_Store
+.vscode/
+.idea/
+
+# model blobs
+*.gguf
+models/
+.ipynb_checkpoints/
